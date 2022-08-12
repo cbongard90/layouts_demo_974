@@ -12,8 +12,45 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
   </head>
   <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="" width="30" height="30">
+        </a>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </nav>
+    <!-- Image -->
+    <div class="container">
 
-    <!-- Code here -->
+      <img src="./images/flat.jpg" class="img-fluid" alt="...">
+
+      <div>
+        <h1>Flat Name Description</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At dicta eos tempore in exercitationem est ipsam fuga, eum, aperiam ratione eaque repellat culpa expedita vero nulla omnis commodi quaerat, voluptatem laborum libero nobis assumenda dolor! Minima quia maxime deserunt quaerat? Itaque corrupti illum commodi quo iusto facilis debitis facere id!</p>
+      </div>
+
+      <!-- form -->
+      <form>
+        <h2>Book This Flat</h2>
+        <div class="mb-3">
+          <label for="MessageInput" class="form-label">Message</label>
+          <input type="text" class="form-control" id="MessageInput" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="ArrivalInput" class="form-label">Arrival</label>
+          <input type="date" class="form-control" id="ArrivalInput">
+        </div>
+        <div class="mb-3">
+          <label for="DepartureInput" class="form-label">Departure</label>
+          <input type="date" class="form-control" id="DepartureInput">
+        </div>
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-primary ">Submit</button>
+        </div>
+      </form>
+    </div>
 
     <!-- Bootstrap JavaScript library -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
